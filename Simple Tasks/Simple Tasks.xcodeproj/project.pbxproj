@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6098F2F919892B3700F7C9E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6098F2F819892B3700F7C9E9 /* Foundation.framework */; };
+		6098F2FB19892B3700F7C9E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6098F2FA19892B3700F7C9E9 /* CoreGraphics.framework */; };
+		6098F2FD19892B3700F7C9E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6098F2FC19892B3700F7C9E9 /* UIKit.framework */; };
+		6098F30319892B3700F7C9E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6098F30119892B3700F7C9E9 /* InfoPlist.strings */; };
+		6098F30519892B3700F7C9E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6098F30419892B3700F7C9E9 /* main.m */; };
+		6098F30919892B3700F7C9E9 /* STAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6098F30819892B3700F7C9E9 /* STAAppDelegate.m */; };
+		6098F30B19892B3700F7C9E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6098F30A19892B3700F7C9E9 /* Images.xcassets */; };
+		6098F31219892B3700F7C9E9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6098F31119892B3700F7C9E9 /* XCTest.framework */; };
+		6098F31319892B3700F7C9E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6098F2F819892B3700F7C9E9 /* Foundation.framework */; };
+		6098F31419892B3700F7C9E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6098F2FC19892B3700F7C9E9 /* UIKit.framework */; };
+		6098F31C19892B3700F7C9E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6098F31A19892B3700F7C9E9 /* InfoPlist.strings */; };
+		6098F31E19892B3700F7C9E9 /* Simple_TasksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6098F31D19892B3700F7C9E9 /* Simple_TasksTests.m */; };
+		6098F32A19892BAF00F7C9E9 /* STAGroupsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6098F32919892BAF00F7C9E9 /* STAGroupsTableViewController.m */; };
+		6098F32D19892BC600F7C9E9 /* STAItemsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6098F32C19892BC600F7C9E9 /* STAItemsTableViewController.m */; };
+		6098F3351989503000F7C9E9 /* STAEditItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6098F3341989503000F7C9E9 /* STAEditItemViewController.m */; };
+		6098F338198A6D0B00F7C9E9 /* STANewGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6098F337198A6D0B00F7C9E9 /* STANewGroupViewController.m */; };
+		60E39B4F198A797D000D1870 /* group_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 60E39B4B198A797D000D1870 /* group_close.png */; };
+		60E39B50198A797D000D1870 /* group_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 60E39B4C198A797D000D1870 /* group_save.png */; };
+		60E39B51198A797D000D1870 /* item_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 60E39B4D198A797D000D1870 /* item_close.png */; };
+		60E39B52198A797D000D1870 /* item_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 60E39B4E198A797D000D1870 /* item_save.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6098F31519892B3700F7C9E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6098F2ED19892B3700F7C9E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6098F2F419892B3700F7C9E9;
+			remoteInfo = "Simple Tasks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6098F2F519892B3700F7C9E9 /* Simple Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Tasks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6098F2F819892B3700F7C9E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6098F2FA19892B3700F7C9E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6098F2FC19892B3700F7C9E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6098F30019892B3700F7C9E9 /* Simple Tasks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Tasks-Info.plist"; sourceTree = "<group>"; };
+		6098F30219892B3700F7C9E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6098F30419892B3700F7C9E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6098F30619892B3700F7C9E9 /* Simple Tasks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Tasks-Prefix.pch"; sourceTree = "<group>"; };
+		6098F30719892B3700F7C9E9 /* STAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAAppDelegate.h; sourceTree = "<group>"; };
+		6098F30819892B3700F7C9E9 /* STAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAAppDelegate.m; sourceTree = "<group>"; };
+		6098F30A19892B3700F7C9E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6098F31019892B3700F7C9E9 /* Simple TasksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple TasksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6098F31119892B3700F7C9E9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6098F31919892B3700F7C9E9 /* Simple TasksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple TasksTests-Info.plist"; sourceTree = "<group>"; };
+		6098F31B19892B3700F7C9E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6098F31D19892B3700F7C9E9 /* Simple_TasksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_TasksTests.m; sourceTree = "<group>"; };
+		6098F32819892BAF00F7C9E9 /* STAGroupsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STAGroupsTableViewController.h; path = "Simple Tasks/STAGroupsTableViewController.h"; sourceTree = "<group>"; };
+		6098F32919892BAF00F7C9E9 /* STAGroupsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STAGroupsTableViewController.m; path = "Simple Tasks/STAGroupsTableViewController.m"; sourceTree = "<group>"; };
+		6098F32B19892BC600F7C9E9 /* STAItemsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STAItemsTableViewController.h; path = "Simple Tasks/STAItemsTableViewController.h"; sourceTree = "<group>"; };
+		6098F32C19892BC600F7C9E9 /* STAItemsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STAItemsTableViewController.m; path = "Simple Tasks/STAItemsTableViewController.m"; sourceTree = "<group>"; };
+		6098F3331989503000F7C9E9 /* STAEditItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STAEditItemViewController.h; path = "Simple Tasks/STAEditItemViewController.h"; sourceTree = "<group>"; };
+		6098F3341989503000F7C9E9 /* STAEditItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STAEditItemViewController.m; path = "Simple Tasks/STAEditItemViewController.m"; sourceTree = "<group>"; };
+		6098F336198A6D0B00F7C9E9 /* STANewGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STANewGroupViewController.h; path = "Simple Tasks/STANewGroupViewController.h"; sourceTree = "<group>"; };
+		6098F337198A6D0B00F7C9E9 /* STANewGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STANewGroupViewController.m; path = "Simple Tasks/STANewGroupViewController.m"; sourceTree = "<group>"; };
+		60E39B4B198A797D000D1870 /* group_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = group_close.png; path = ../../../../Downloads/screenshots_files/files/group_close.png; sourceTree = "<group>"; };
+		60E39B4C198A797D000D1870 /* group_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = group_save.png; path = ../../../../Downloads/screenshots_files/files/group_save.png; sourceTree = "<group>"; };
+		60E39B4D198A797D000D1870 /* item_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item_close.png; path = ../../../../Downloads/screenshots_files/files/item_close.png; sourceTree = "<group>"; };
+		60E39B4E198A797D000D1870 /* item_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item_save.png; path = ../../../../Downloads/screenshots_files/files/item_save.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6098F2F219892B3700F7C9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6098F2FB19892B3700F7C9E9 /* CoreGraphics.framework in Frameworks */,
+				6098F2FD19892B3700F7C9E9 /* UIKit.framework in Frameworks */,
+				6098F2F919892B3700F7C9E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6098F30D19892B3700F7C9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6098F31219892B3700F7C9E9 /* XCTest.framework in Frameworks */,
+				6098F31419892B3700F7C9E9 /* UIKit.framework in Frameworks */,
+				6098F31319892B3700F7C9E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6098F2EC19892B3700F7C9E9 = {
+			isa = PBXGroup;
+			children = (
+				60E39B4B198A797D000D1870 /* group_close.png */,
+				60E39B4C198A797D000D1870 /* group_save.png */,
+				60E39B4D198A797D000D1870 /* item_close.png */,
+				60E39B4E198A797D000D1870 /* item_save.png */,
+				6098F32719892B6300F7C9E9 /* Controllers */,
+				6098F2FE19892B3700F7C9E9 /* Simple Tasks */,
+				6098F31719892B3700F7C9E9 /* Simple TasksTests */,
+				6098F2F719892B3700F7C9E9 /* Frameworks */,
+				6098F2F619892B3700F7C9E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6098F2F619892B3700F7C9E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6098F2F519892B3700F7C9E9 /* Simple Tasks.app */,
+				6098F31019892B3700F7C9E9 /* Simple TasksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6098F2F719892B3700F7C9E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6098F2F819892B3700F7C9E9 /* Foundation.framework */,
+				6098F2FA19892B3700F7C9E9 /* CoreGraphics.framework */,
+				6098F2FC19892B3700F7C9E9 /* UIKit.framework */,
+				6098F31119892B3700F7C9E9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6098F2FE19892B3700F7C9E9 /* Simple Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				6098F30719892B3700F7C9E9 /* STAAppDelegate.h */,
+				6098F30819892B3700F7C9E9 /* STAAppDelegate.m */,
+				6098F30A19892B3700F7C9E9 /* Images.xcassets */,
+				6098F2FF19892B3700F7C9E9 /* Supporting Files */,
+			);
+			path = "Simple Tasks";
+			sourceTree = "<group>";
+		};
+		6098F2FF19892B3700F7C9E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6098F30019892B3700F7C9E9 /* Simple Tasks-Info.plist */,
+				6098F30119892B3700F7C9E9 /* InfoPlist.strings */,
+				6098F30419892B3700F7C9E9 /* main.m */,
+				6098F30619892B3700F7C9E9 /* Simple Tasks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6098F31719892B3700F7C9E9 /* Simple TasksTests */ = {
+			isa = PBXGroup;
+			children = (
+				6098F31D19892B3700F7C9E9 /* Simple_TasksTests.m */,
+				6098F31819892B3700F7C9E9 /* Supporting Files */,
+			);
+			path = "Simple TasksTests";
+			sourceTree = "<group>";
+		};
+		6098F31819892B3700F7C9E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6098F31919892B3700F7C9E9 /* Simple TasksTests-Info.plist */,
+				6098F31A19892B3700F7C9E9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6098F32719892B6300F7C9E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6098F32819892BAF00F7C9E9 /* STAGroupsTableViewController.h */,
+				6098F32919892BAF00F7C9E9 /* STAGroupsTableViewController.m */,
+				6098F336198A6D0B00F7C9E9 /* STANewGroupViewController.h */,
+				6098F337198A6D0B00F7C9E9 /* STANewGroupViewController.m */,
+				6098F32B19892BC600F7C9E9 /* STAItemsTableViewController.h */,
+				6098F32C19892BC600F7C9E9 /* STAItemsTableViewController.m */,
+				6098F3331989503000F7C9E9 /* STAEditItemViewController.h */,
+				6098F3341989503000F7C9E9 /* STAEditItemViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6098F2F419892B3700F7C9E9 /* Simple Tasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6098F32119892B3700F7C9E9 /* Build configuration list for PBXNativeTarget "Simple Tasks" */;
+			buildPhases = (
+				6098F2F119892B3700F7C9E9 /* Sources */,
+				6098F2F219892B3700F7C9E9 /* Frameworks */,
+				6098F2F319892B3700F7C9E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Tasks";
+			productName = "Simple Tasks";
+			productReference = 6098F2F519892B3700F7C9E9 /* Simple Tasks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6098F30F19892B3700F7C9E9 /* Simple TasksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6098F32419892B3700F7C9E9 /* Build configuration list for PBXNativeTarget "Simple TasksTests" */;
+			buildPhases = (
+				6098F30C19892B3700F7C9E9 /* Sources */,
+				6098F30D19892B3700F7C9E9 /* Frameworks */,
+				6098F30E19892B3700F7C9E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6098F31619892B3700F7C9E9 /* PBXTargetDependency */,
+			);
+			name = "Simple TasksTests";
+			productName = "Simple TasksTests";
+			productReference = 6098F31019892B3700F7C9E9 /* Simple TasksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6098F2ED19892B3700F7C9E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = STA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Shane Sniteman";
+				TargetAttributes = {
+					6098F30F19892B3700F7C9E9 = {
+						TestTargetID = 6098F2F419892B3700F7C9E9;
+					};
+				};
+			};
+			buildConfigurationList = 6098F2F019892B3700F7C9E9 /* Build configuration list for PBXProject "Simple Tasks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6098F2EC19892B3700F7C9E9;
+			productRefGroup = 6098F2F619892B3700F7C9E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6098F2F419892B3700F7C9E9 /* Simple Tasks */,
+				6098F30F19892B3700F7C9E9 /* Simple TasksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6098F2F319892B3700F7C9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E39B51198A797D000D1870 /* item_close.png in Resources */,
+				60E39B50198A797D000D1870 /* group_save.png in Resources */,
+				6098F30319892B3700F7C9E9 /* InfoPlist.strings in Resources */,
+				60E39B52198A797D000D1870 /* item_save.png in Resources */,
+				6098F30B19892B3700F7C9E9 /* Images.xcassets in Resources */,
+				60E39B4F198A797D000D1870 /* group_close.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6098F30E19892B3700F7C9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6098F31C19892B3700F7C9E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6098F2F119892B3700F7C9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6098F32A19892BAF00F7C9E9 /* STAGroupsTableViewController.m in Sources */,
+				6098F32D19892BC600F7C9E9 /* STAItemsTableViewController.m in Sources */,
+				6098F338198A6D0B00F7C9E9 /* STANewGroupViewController.m in Sources */,
+				6098F30519892B3700F7C9E9 /* main.m in Sources */,
+				6098F30919892B3700F7C9E9 /* STAAppDelegate.m in Sources */,
+				6098F3351989503000F7C9E9 /* STAEditItemViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6098F30C19892B3700F7C9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6098F31E19892B3700F7C9E9 /* Simple_TasksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6098F31619892B3700F7C9E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6098F2F419892B3700F7C9E9 /* Simple Tasks */;
+			targetProxy = 6098F31519892B3700F7C9E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6098F30119892B3700F7C9E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6098F30219892B3700F7C9E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6098F31A19892B3700F7C9E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6098F31B19892B3700F7C9E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6098F31F19892B3700F7C9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6098F32019892B3700F7C9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6098F32219892B3700F7C9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Tasks/Simple Tasks-Prefix.pch";
+				INFOPLIST_FILE = "Simple Tasks/Simple Tasks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6098F32319892B3700F7C9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Tasks/Simple Tasks-Prefix.pch";
+				INFOPLIST_FILE = "Simple Tasks/Simple Tasks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6098F32519892B3700F7C9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Tasks.app/Simple Tasks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Tasks/Simple Tasks-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Simple TasksTests/Simple TasksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6098F32619892B3700F7C9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Tasks.app/Simple Tasks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Tasks/Simple Tasks-Prefix.pch";
+				INFOPLIST_FILE = "Simple TasksTests/Simple TasksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6098F2F019892B3700F7C9E9 /* Build configuration list for PBXProject "Simple Tasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6098F31F19892B3700F7C9E9 /* Debug */,
+				6098F32019892B3700F7C9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6098F32119892B3700F7C9E9 /* Build configuration list for PBXNativeTarget "Simple Tasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6098F32219892B3700F7C9E9 /* Debug */,
+				6098F32319892B3700F7C9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6098F32419892B3700F7C9E9 /* Build configuration list for PBXNativeTarget "Simple TasksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6098F32519892B3700F7C9E9 /* Debug */,
+				6098F32619892B3700F7C9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6098F2ED19892B3700F7C9E9 /* Project object */;
+}
